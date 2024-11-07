@@ -67,6 +67,4 @@ def process_files(input_dir, output_dir):
             save_comments(fixed_comments, output_path)
             print(f'Processed file saved to: {output_path}')
 
-
-# Run the function for processing all files
 process_files(input_dir, output_dir)
