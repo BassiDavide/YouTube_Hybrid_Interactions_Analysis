@@ -2,7 +2,7 @@ import json
 import re
 import os
 
-# Function to process JSONL file and append extra data
+
 def process_jsonl_comments(input_jsonl_path, output_jsonl_path):
     with open(input_jsonl_path, 'r', encoding='utf-8') as infile, open(output_jsonl_path, 'w', encoding='utf-8') as outfile:
 
@@ -51,7 +51,7 @@ def process_directory(input_dir, output_dir):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    # Process each file in the input directory
+
     for filename in os.listdir(input_dir):
         if filename.endswith('.jsonl'):
             input_path = os.path.join(input_dir, filename)
