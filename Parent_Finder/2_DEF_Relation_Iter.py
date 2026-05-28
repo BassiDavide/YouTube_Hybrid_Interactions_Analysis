@@ -80,6 +80,6 @@ def process_directory(input_dir, output_dir):
                 print(f"Processed: {input_path} -> {output_path}")
 
 # Example usage
-input_directory = '/mnt/beegfs/home/davide.bassi/YT_continuous_scraper/Conversation_Builder/Intermediate/Username_Fix'
-output_directory = '/mnt/beegfs/home/davide.bassi/YT_continuous_scraper/Conversation_Builder/Intermediate/Relation_Created'
+input_directory = 'Path_to/Username_Fix'
+output_directory = 'Path_to/Relation_Created'
 process_directory(input_directory, output_directory)
