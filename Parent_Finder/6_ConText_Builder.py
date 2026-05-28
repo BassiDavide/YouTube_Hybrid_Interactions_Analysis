@@ -122,8 +122,8 @@ def process_all_folders(base_path, output_base_path):
 
 def main():
     # Configuration - UPDATE THESE PATHS
-    input_base_path = "/mnt/beegfs/home/davide.bassi/YT_continuous_scraper/Chain_Comment_with_titles"
-    output_base_path = "/mnt/beegfs/home/davide.bassi/YT_continuous_scraper/Chain_Comment_with_context"
+    input_base_path = "Path_to/Chain_Comment_with_titles"
+    output_base_path = "Path_to/Chain_Comment_with_context"
     
     print("Starting to add ConText field to YouTube comments...")
     
