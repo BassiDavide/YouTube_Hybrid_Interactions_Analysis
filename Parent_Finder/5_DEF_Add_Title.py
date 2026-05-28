@@ -73,10 +73,10 @@ def process_comments_folder(comments_folder_path, video_titles, output_folder_pa
 
 def main():
     # Configuration - UPDATE THESE PATHS
-    comments_base_path = "/mnt/beegfs/home/davide.bassi/YT_continuous_scraper/Chain_Comment"
+    comments_base_path = "Path_to/Chain_Comment"
     
-    csv_folder_path = "/mnt/beegfs/home/davide.bassi/YT_continuous_scraper/Video"  # Assuming CSV files are in the base directory
-    output_base_path = "/mnt/beegfs/home/davide.bassi/YT_continuous_scraper/Chain_Comment_with_titles"
+    csv_folder_path = "Path_to/Video"  # Assuming CSV files are in the base directory
+    output_base_path = "Path_to/Chain_Comment_with_titles"
     
     print("Loading video titles from CSV files...")
     video_titles = load_video_titles_from_csv(csv_folder_path)
