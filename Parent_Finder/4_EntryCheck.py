@@ -97,5 +97,5 @@ def analyze_directory(input_dir):
         print()
 
 # Example usage - analyze entire directory
-input_directory = '/mnt/beegfs/home/davide.bassi/YT_continuous_scraper/Conversation_Builder/Intermediate/Def'
+input_directory = 'Path_to/Def'
 analyze_directory(input_directory)
