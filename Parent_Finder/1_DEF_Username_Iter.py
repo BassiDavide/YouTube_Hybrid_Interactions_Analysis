@@ -2,8 +2,8 @@ import json
 import os
 
 # Specify your directories
-input_dir = '/mnt/beegfs/home/davide.bassi/YT_continuous_scraper/Caroline/Final_Dataset/comments_by_channel_api'
-output_dir = '/mnt/beegfs/home/davide.bassi/YT_continuous_scraper/Conversation_Builder/Intermediate/Username_Fix'
+input_dir = 'Folder_with_jsonl_files'
+output_dir = 'Path_to/Username_Fix'
 
 
 def load_comments(file_path):
