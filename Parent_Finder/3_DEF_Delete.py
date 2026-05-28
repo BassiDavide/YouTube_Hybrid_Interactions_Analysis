@@ -125,7 +125,7 @@ def process_directory_with_chain_preservation(input_dir, output_dir, deleted_dir
 
 
 # Example usage
-input_directory = '/mnt/beegfs/home/davide.bassi/YT_continuous_scraper/Conversation_Builder/Intermediate/Relation_Created'
-output_directory = '/mnt/beegfs/home/davide.bassi/YT_continuous_scraper/Conversation_Builder/Intermediate/Def'
-deleted_directory = '/mnt/beegfs/home/davide.bassi/YT_continuous_scraper/Conversation_Builder/Intermediate/Deleted_Check'
+input_directory = 'Path_to/Relation_Created'
+output_directory = 'Path_to/Def'
+deleted_directory = 'Path_to/Deleted_Check'
 process_directory_with_chain_preservation(input_directory, output_directory, deleted_directory)
